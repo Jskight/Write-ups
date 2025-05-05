@@ -14,7 +14,7 @@ gobuster -u http://fakebank.thm -w wordlist.txt dir
 
 ```-w``` takes a list of words to iterate through to find hidden pages
 
-![image](../Write%20ups/images/gobuster1.png)
+![image](../Learning%20modules/images/gobuster1.png)
 
 In the above image GoBuster has located 2 hidden pages:
 - images (Status: 301)
@@ -29,18 +29,18 @@ Navigate to the webpage in your browser
 
 You will be taken to an Admin Portal
 
-![image](../Write%20ups/images/adminportal.png)
+![image](../Learning%20modules/images/adminportal.png)
 
 > From this page, an attacker has authorized access and can steal money from any bank account. As an ethical hacker, you would (with permission) find vulnerabilities in their application and report them to the bank to fix them before a hacker exploits them.
 
 Your mission is to transfer $2000 from bank account 2276 to your account (account number 8881). If your transfer was successful, you should now be able to see your new balance reflected on your account page.
 
-![image](../Write%20ups/images/heist.png)
+![image](../Learning%20modules/images/heist.png)
 
-![image](../Write%20ups/images/heist2.png)
+![image](../Learning%20modules/images/heist2.png)
 
 ## Success!
 
 The money is now in "your" account and the flag is displayed!
 
-![image](../Write%20ups/images/heist3.png)  
+![image](../Learning%20modules/images/heist3.png)  

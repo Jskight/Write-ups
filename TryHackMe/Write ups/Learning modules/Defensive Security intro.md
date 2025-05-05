@@ -10,23 +10,23 @@ For example, you may encounter an alert where a user has failed multiple login a
 
 Additionally, there might be alerts related to connections from unknown IP addresses. An IP address is like a home address for your computer on the Internet—it tells other computers where to send the information you request. When these addresses are unknown, it could mean that someone new is trying to connect or someone is attempting unauthorized access.
 
-![image](../Write%20ups/images/SIEM1.png)
+![image](../Learning%20modules/images/SIEM1.png)
 
 In the image above we can see alert log. 
 
 Lets take a look at that Unauthorized connection from ```143.110.250.149:22```
 
-![image](../Write%20ups/images/SIEM2.png)
+![image](../Learning%20Modules/images/SIEM2.png)
 
 we want to take a closer look at the IP address making the unauthorized connection attempt, so we'll check it out on a site that contains a list on known malicious IPs.
 
-![image](../Write%20ups/images/ipscan2.png)
+![image](../Learning%20modules/images/ipscan2.png)
 
 Lets go ahead an escalate the issue to our Team Lead
 
-![image](../Write%20ups/images/lead.png)
+![image](../Learning%20modules/images/lead.png)
 
 Our Team Lead advised that we have permission to Implement a block rule for the malicious IP
 
-![image](../Write%20ups/images/block.png)
-![image](../Write%20ups/images/block2.png)
+![image](../Learning%20modules/images/block.png)
+![image](../Learning%20modules/images/block2.png)
